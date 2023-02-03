@@ -15,4 +15,11 @@ public class Persona {
     edad = edad + 1;
     return edad;
   }
+  
+  public void datosPersona() {
+    System.out.println("Nombre: " + nombre);
+    System.out.println("Apellidos: " + apellidos);
+    System.out.println("Edad: " + edad);
+  }
+  
 }
